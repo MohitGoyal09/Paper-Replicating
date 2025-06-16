@@ -46,6 +46,5 @@ The implementation is based on the fundamental principles of autoencoders as des
 ## Future Work
 
 - Implementation of Variational Autoencoders (VAE)
-- Convolutional Autoencoders
 - Denoising Autoencoders
 - Sparse Autoencoders
