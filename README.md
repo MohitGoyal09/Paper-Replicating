@@ -1,62 +1,74 @@
 # Paper-Replicating
 
-A repository dedicated to implementing various machine learning research papers from scratch using PyTorch.
+A professional, hands-on repository for replicating foundational machine learning papers in PyTorch.
 
-## 🎯 Purpose
+## Overview
 
-This project aims to deepen understanding of machine learning algorithms and architectures by:
+This project focuses on understanding research papers through implementation-first learning.  
+Each module aims to reproduce key architectural ideas, build training/evaluation workflows, and document practical findings.
 
-- Implementing foundational research papers from scratch
-- Using PyTorch as the primary framework
-- Achieving at least one benchmark metric mentioned in each paper
-- Thoroughly documenting the implementation process
+## Objectives
 
-## 📁 Repository Structure
+- Recreate influential ML architectures from original papers
+- Implement models and training loops from scratch using PyTorch
+- Track meaningful metrics for validation
+- Document design choices, challenges, and results clearly
 
-- **AutoEncoders/** - Implementation of various autoencoder architectures
-- **RNN/** - Recurrent Neural Network paper implementations
-- **CNN/** - Convolutional Neural Network paper implementations
+## Repository Structure
 
-## 🔍 Implementation Approach
+- `AutoEncoders/` — Autoencoder implementations and experiments
+- `CNN/` — CNN paper replications (e.g., LeNet, AlexNet)
+- `RNN/` — RNN/LSTM implementations and sequence modeling experiments
+- `LLAMA/` — LLaMA-style transformer implementation with training and inference scripts
 
-Each paper implementation follows this methodology:
+## Getting Started
 
-1. **Paper Analysis** - Thorough understanding of the research paper
-2. **Architecture Design** - Recreating the model architecture using PyTorch
-3. **Training Pipeline** - Building efficient training and evaluation pipelines
-4. **Metric Validation** - Validating against at least one metric from the paper
-5. **Documentation** - Comprehensive documentation including:
-   - Architecture diagrams
-   - Implementation challenges
-   - Solutions and insights
-   - Performance analysis
+### Prerequisites
 
-## 🛠️ Technologies
+- Python 3.9+
+- PyTorch
+- Jupyter Notebook (for notebook-based modules)
 
-- **PyTorch** - Primary deep learning framework
-- **Python** - Core programming language
-- **Jupyter Notebooks** - For interactive experimentation and visualization
+### Clone the Repository
 
-## 📊 Implementations
+```bash
+git clone https://github.com/MohitGoyal09/Paper-Replicating.git
+cd Paper-Replicating
+```
 
-Each implementation directory contains:
+### Run Notebook-Based Modules
 
-- Source code for the model
-- Training scripts
-- Evaluation metrics
-- Documentation of results and learnings
-- References to the original paper
+Open notebooks under `AutoEncoders/`, `CNN/`, and `RNN/` using Jupyter.
 
-## 🔜 Future Work
+### Run the LLaMA Module
 
-- Expanding to more paper categories (Transformers, GANs, etc.)
-- Comparative analysis between different implementations
-- Performance optimization techniques
+```bash
+cd LLAMA
+pip install -r requirements.txt
+python train.py
+```
 
-## 📚 References
+## Implementation Philosophy
 
-Each implementation includes references to the original papers being replicated.
+Each replication generally follows:
 
----
+1. Paper study and architecture breakdown
+2. PyTorch implementation of core model components
+3. Training and evaluation setup
+4. Metric-based validation
+5. Documentation of insights and limitations
 
-*This repository serves as both a learning resource and a practical reference for understanding cutting-edge machine learning techniques through hands-on implementation.*
+## Roadmap
+
+- Add more replication tracks (e.g., Transformers, GANs, diffusion models)
+- Improve benchmark reporting and reproducibility
+- Standardize experiment tracking across modules
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request with a clear description of the proposed change.
+
+## Disclaimer
+
+This repository is intended for educational and research purposes.  
+Please refer to original papers and official licenses for production or commercial usage constraints.
